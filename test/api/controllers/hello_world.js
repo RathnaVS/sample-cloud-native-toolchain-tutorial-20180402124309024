@@ -20,7 +20,7 @@ describe('controllers', function() {
           .end(function(err, res) {
             should.not.exist(err);
 
-            res.body.should.eql('Hello Kids, stranger!');
+            res.body.should.eql('Hello kids, stranger!');
 
             done();
           });
